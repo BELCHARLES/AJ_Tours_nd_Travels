@@ -338,7 +338,7 @@
 }
 
 
-@media(max-width:420px){
+@media(max-width:425px){
   .content .image{
     width: 380px;
     height:250px;
@@ -355,6 +355,15 @@
     width: 350px;
     height: 200px;
   }
+  .media-info li:nth-child(1),
+  .media-info li:nth-child(5) {
+    padding-left: 0px;
+  }
+
+  .media-info li:nth-child(2),
+  .media-info li:nth-child(4) {
+    padding-left: 0px;
+  } 
 }
 
 /* @media (max-width: 415px) {
